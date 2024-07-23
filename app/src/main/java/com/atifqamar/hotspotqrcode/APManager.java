@@ -138,7 +138,7 @@ public class APManager {
                 }
             }
             try {
-                ssid = "Pixel";//"AndroidAP_" + new Random().nextInt(10000);
+                ssid = "Pixel";//"AndroidAP_" + new Random().nextInt(10000);a
                 password = "intrasonics";
                 WifiConfiguration wifiConfiguration = new WifiConfiguration();
                 wifiConfiguration.SSID = ssid;
